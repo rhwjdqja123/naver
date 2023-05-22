@@ -1,7 +1,7 @@
+
 .blind{
     position: absolute;
-    overflow: hidden;
-    clip rect(0 0 0 0);
+
     margin: -1px;
     width: 1px;
     height: 1px;
@@ -48,7 +48,7 @@ vertical-align: middle;
     border: none;
     outline: none;
     vertical-align:middle;
-    vertical-align: ;
+ 
     width: 450px;
     height: 26px;
     padding: 0;
@@ -64,4 +64,21 @@ vertical-align: middle;
  right: -2px;
  top:-2px;
 
+}
+
+
+#header-center{
+    margin: 0 auto;
+     width: 1080px;
+}
+#header-search > h1 {
+    width:280px;
+}
+#header-search h2{
+    display: none;
+
+}
+
+#header-search fieldset{
+    width: 520px;
 }
